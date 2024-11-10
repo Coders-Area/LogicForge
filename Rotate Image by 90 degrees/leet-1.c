@@ -48,6 +48,7 @@ void printMatrix(int n, int M[n][n]) {
 }
 
 // See below for the code as pasted in leetcode
+/*
 void rotate(int** matrix, int matrixSize, int* matrixColSize) {
     int depth = matrixSize / 2;
     
@@ -64,3 +65,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize) {
         }
     }
 }
+*/
