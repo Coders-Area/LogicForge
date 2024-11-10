@@ -12,12 +12,12 @@ int main() {
     };
 
     printf("Original Matrix:\n");
-    printMatrix(n, M);
+    printMatrix(n, M);    // Calling Function to print original matrix
 
-    rotate(n, M);
+    rotate(n, M);    // Calling Function to rotate the matrix
 
     printf("\nRotated Matrix:\n");
-    printMatrix(n, M);
+    printMatrix(n, M);    // Calling Function to print the rotated matrix
 
     return 0;
 }
