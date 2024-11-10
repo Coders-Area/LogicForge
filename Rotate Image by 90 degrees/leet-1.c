@@ -4,7 +4,7 @@ void rotate(int n, int M[n][n]);
 void printMatrix(int n, int M[n][n]);
 
 int main() {
-    int n = 3; // Example for a 3x3 matrix
+    int n = 3;
     int M[3][3] = {
         {1, 2, 3},
         {4, 5, 6},
