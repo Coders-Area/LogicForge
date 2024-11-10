@@ -1,3 +1,5 @@
+// See from line#54 below for the code as pasted in LeetCode
+
 #include <stdio.h>
 
 void rotate(int n, int M[n][n]);
