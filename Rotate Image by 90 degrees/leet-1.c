@@ -46,3 +46,21 @@ void printMatrix(int n, int M[n][n]) {
         printf("\n");
     }
 }
+
+// See below for the code as pasted in leetcode
+void rotate(int** matrix, int matrixSize, int* matrixColSize) {
+    int depth = matrixSize / 2;
+    
+    for (int i = 0; i < depth; i++) {
+        int len = matrixSize - 2 * i - 1;
+        int opp = matrixSize - 1 - i;
+        
+        for (int j = 0; j < len; j++) {
+            int temp = matrix[i][i + j];
+            matrix[i][i + j] = matrix[opp - j][i];
+            matrix[opp - j][i] = matrix[opp][opp - j];
+            matrix[opp][opp - j] = matrix[i + j][opp];
+            matrix[i + j][opp] = temp;
+        }
+    }
+}
