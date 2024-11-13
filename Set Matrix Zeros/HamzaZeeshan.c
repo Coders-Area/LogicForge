@@ -18,7 +18,7 @@ void setZeroes(int ** matrix, int matrixSize, int * colSize) {
         }
     }
 
-ed
+
     for (int i = 1; i < matrixSize; i++) {
         for (int j = 1; j < matrixColSize; j++) {
             if (matrix[i][j] == 0) {
