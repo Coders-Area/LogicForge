@@ -1,1 +1,2 @@
-### FAST_Leet-Coders✨
+### LogicForge✨
+✨ Welcome to CodeForge – a collaborative hub for passionate coders to tackle competitive programming challenges from platforms like Codeforces, Atcoder, and more. Together, we sharpen our problem-solving skills, explore efficient algorithms, and craft elegant solutions. Whether you're a beginner or an expert, join us to forge your coding journey and elevate your skills to the next level! ✨
